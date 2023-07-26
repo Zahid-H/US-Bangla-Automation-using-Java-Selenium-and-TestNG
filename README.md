@@ -22,3 +22,9 @@ US-Bangla-Automation-using-Java-Selenium-and-TestNG
   <li>Download java JDK and necessary packs </li>
   <li>Check UsBangla.java file src-> ..\src\test\java\usbangla\us_bangla_autoamtion\UsBangla.java and run tests </li>
 </ul>
+
+# Automation Demo
+https://github.com/Zahid-H/US-Bangla-Automation-using-Java-Selenium-and-TestNG/assets/83463788/1d89b8b1-38ba-4e99-85ef-2088ce54f8a5
+
+
+
