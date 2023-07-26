@@ -40,6 +40,24 @@ public class UsBangla {
         Assert.assertEquals(actualTitle, expectedTitle);
 
     }
+    //Testcase_003 Verify US-Bangla login
+    @Test
+    public void verifyLogin() throws InterruptedException{
+        //Click on Login
+        driver.findElement(By.xpath("//p[@class='font-normal font-roboto text-footerDescriptionBottomPart']")).click();
+        //Select Sky Star from the dynamic catagory
+        driver.findElement(By.xpath("//div[normalize-space()='Sky Star']")).click();
+        //Put user id 
+        Thread.sleep(2000);
+        driver.findElement(By.id("Login")).sendKeys("User@Zahid");
+        //Put user password
+        Thread.sleep(2000);
+        driver.findElement(By.id("Password")).sendKeys("Zahid Bro wants to Fly");
+        Thread.sleep(2000);
+        driver.findElement(By.id("btnLoginAction")).click();
+        Thread.sleep(2000);
+
+    }
 
 
 
