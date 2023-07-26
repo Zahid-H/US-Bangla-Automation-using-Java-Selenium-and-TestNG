@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-26T20:18:18 BDT" name="Suite" finished-at="2023-07-26T20:19:43 BDT" duration-ms="85089">
+    <groups>
+    </groups>
+    <test started-at="2023-07-26T20:18:18 BDT" name="Test" finished-at="2023-07-26T20:19:43 BDT" duration-ms="85089">
+      <class name="usbangla.us_bangla_autoamtion.UsBangla">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:18:18 BDT" name="setUp" finished-at="2023-07-26T20:18:22 BDT" duration-ms="4542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="BookTicket()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:18:22 BDT" name="BookTicket" finished-at="2023-07-26T20:19:15 BDT" duration-ms="53012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookTicket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:15 BDT" name="tearDown" finished-at="2023-07-26T20:19:15 BDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:15 BDT" name="setUp" finished-at="2023-07-26T20:19:18 BDT" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:18 BDT" name="verifyLogin" finished-at="2023-07-26T20:19:36 BDT" duration-ms="18047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:36 BDT" name="tearDown" finished-at="2023-07-26T20:19:36 BDT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:36 BDT" name="setUp" finished-at="2023-07-26T20:19:38 BDT" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogo()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:38 BDT" name="verifyLogo" finished-at="2023-07-26T20:19:38 BDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:38 BDT" name="tearDown" finished-at="2023-07-26T20:19:38 BDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:38 BDT" name="setUp" finished-at="2023-07-26T20:19:42 BDT" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:42 BDT" name="verifyTitle" finished-at="2023-07-26T20:19:42 BDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:usbangla.us_bangla_autoamtion.UsBangla@618b19ad]" started-at="2023-07-26T20:19:42 BDT" name="tearDown" finished-at="2023-07-26T20:19:43 BDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- usbangla.us_bangla_autoamtion.UsBangla -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
