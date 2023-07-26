@@ -1,7 +1,7 @@
 package usbangla.us_bangla_autoamtion;
 
 import java.time.Duration;
-
+import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,12 +27,21 @@ public class UsBangla {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 	}
-    //Testcase 1 Verify US-Bangla logo
+    //Testcase_001 Verify US-Bangla logo
     @Test
     public void verifyLogo(){
         boolean logo = driver.findElement(By.xpath("//img[@alt='US-Bangla Airlines']")).isDisplayed();
     }
-    
+    //Testcase_002 Verify US-Bangla logo
+    @Test
+    public void verifyTitle(){
+        String actualTitle = driver.getTitle();
+        String expectedTitle ="US-Bangla Airlines | US-Bangla Airlines";
+        Assert.assertEquals(actualTitle, expectedTitle);
+
+    }
+
+
 
     @AfterMethod
 	public void tearDown()
