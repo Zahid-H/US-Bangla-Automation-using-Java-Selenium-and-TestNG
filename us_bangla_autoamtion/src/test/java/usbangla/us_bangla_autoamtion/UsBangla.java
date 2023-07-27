@@ -58,8 +58,16 @@ public class UsBangla {
         Thread.sleep(2000);
 
     }
-    
 
+    @Test 
+    public void verifyRegistration () throws InterruptedException{
+        driver.findElement(By.xpath("//p[@class='font-normal font-roboto text-footerDescriptionBottomPart']")).click();
+        //Select Sky Star from the dynamic catagory
+        driver.findElement(By.xpath("//div[normalize-space()='Sky Star']")).click();
+        //click on the create profile 
+        driver.findElement(By.xpath("//a[normalize-space()='Create a new profile']")).click();
+        //Create new profile section 
+    }
     //Testcase_005 Verify US-Bangla ticket purchase
     @Test
     public void BookTicket() throws InterruptedException{
