@@ -58,7 +58,9 @@ public class UsBangla {
         Thread.sleep(2000);
 
     }
-    //Testcase_004 Verify US-Bangla ticket purchase
+    
+
+    //Testcase_005 Verify US-Bangla ticket purchase
     @Test
     public void BookTicket() throws InterruptedException{
         driver.findElement(By.xpath("//div[normalize-space()='Hazrat Shahjalal International Airport']")).click();
